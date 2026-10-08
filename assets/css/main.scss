@@ -37,3 +37,11 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+/* Keep section headings visible below the fixed Academic Pages masthead. */
+#about,
+#research-interests,
+#publications,
+#experience {
+  scroll-margin-top: 5rem;
+}
