@@ -45,3 +45,15 @@
 #experience {
   scroll-margin-top: 5rem;
 }
+
+
+/* Keep publication titles close to body-text size within the homepage list. */
+.page__content .publication-list .archive__item-title {
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.45;
+  margin-top: 1.25em;
+  margin-bottom: 0.35em;
+  padding-bottom: 0;
+  border-bottom: 0;
+}

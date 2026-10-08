@@ -24,6 +24,7 @@ Health and well-being are application areas of particular interest, where unders
 
 ## Publications
 
+<div class="publication-list">
 {% include base_path %}
 {% for category in site.publication_category %}
 {% assign title_shown = false %}
@@ -36,6 +37,8 @@ Health and well-being are application areas of particular interest, where unders
 {% include archive-single.html %}
 {% endfor %}
 {% endfor %}
+
+</div>
 
 ## Experience
 
