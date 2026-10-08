@@ -1,8 +1,5 @@
 ---
-layout: single
-title: "Experience"
 permalink: /experience/
-author_profile: true
+redirect_to: /#experience
+sitemap: false
 ---
-
-Experience details are not yet listed on this website.

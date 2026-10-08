@@ -33,3 +33,7 @@ jobs:
           for page in index.html research/index.html publications/index.html experience/index.html cv/index.html; do
             test -s "_site/$page"
           done
+          for section in about research-interests publications experience; do
+            grep -q "id=\"$section\"" _site/index.html
+          done
+          test "$(find _site/publications -mindepth 2 -name index.html | wc -l)" -eq 5
