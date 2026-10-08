@@ -1,10 +1,7 @@
 ---
-layout: single
-title: "CV"
 permalink: /cv/
-author_profile: true
+redirect_to: /#cv
 redirect_from:
   - /resume
+sitemap: false
 ---
-
-A CV is not yet available on this website.
