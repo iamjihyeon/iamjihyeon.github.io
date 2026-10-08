@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-I’m Jihyeon (Jennie) Kim. My research interests are Human-Centered Computing, large-scale interaction data, human behavior, and health/well-being.
+I'm Jihyeon (Jennie) Kim, a platform engineer with a background in computer science and experience in large-scale data engineering.
 
-I am preparing PhD applications for Fall 2027.
-
-Explore my [research interests]({{ '/research/' | relative_url }}), [publications]({{ '/publications/' | relative_url }}), [experience]({{ '/experience/' | relative_url }}), and [CV]({{ '/cv/' | relative_url }}).
+My research interests lie in Human-Centered Computing, particularly in understanding human behavior and experiences through large-scale interaction data generated in digital environments. I am especially interested in applying computational approaches to questions related to health and well-being.
