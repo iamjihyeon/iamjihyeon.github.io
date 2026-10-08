@@ -26,15 +26,15 @@ Health and well-being are application areas of particular interest, where unders
 
 {% include base_path %}
 {% for category in site.publication_category %}
-  {% assign title_shown = false %}
-  {% for post in site.publications reversed %}
-    {% if post.category != category[0] %}{% continue %}{% endif %}
-    {% unless title_shown %}
-      <h3>{{ category[1].title }}</h3>
-      {% assign title_shown = true %}
-    {% endunless %}
-    {% include archive-single.html %}
-  {% endfor %}
+{% assign title_shown = false %}
+{% for post in site.publications reversed %}
+{% if post.category != category[0] %}{% continue %}{% endif %}
+{% unless title_shown %}
+<h3>{{ category[1].title }}</h3>
+{% assign title_shown = true %}
+{% endunless %}
+{% include archive-single.html %}
+{% endfor %}
 {% endfor %}
 
 ## Experience
